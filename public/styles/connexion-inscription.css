@@ -1,0 +1,103 @@
+body {
+    font-family: 'Leelawadee', 'Segoe UI';
+    background-color: #e6e8ea
+}
+
+.conteuneur {
+    font-family: 'Leelawadee',  'Segoe UI';
+    height: 620px;
+    width: 980px;
+    background-color: rgba(255, 255, 255, 0.952);
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    flex: content;
+    box-shadow: 5px 25px 25px gray;
+}
+
+.cadre-1{
+    height: 600px;
+    width: 360px;
+    float: left;
+    padding-top: 100px;
+}
+
+.cadre-1 h1{
+    font-size: 50;
+    font-weight: bolder;
+    color: #007104
+}
+
+.cadre-1 p{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-top: -10px;
+    color: #a7a7a7
+}
+
+.cadre-1 p, .cadre-1 h1{
+    padding-left: 50px;
+}
+
+.formulaire{
+    padding-top: 16px;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 12px;
+    color: #477b49;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.empiled{
+    margin-top: 8px;
+    padding-bottom: 8px;
+    align-items: center;
+}
+
+.champ{
+    height: 32px;
+    width: 256px;
+    border: 0 transparent;
+    border-bottom: 2px solid gray;
+    background: transparent;
+    font-size: 14px;
+    font-family: 'Segoe UI';
+}
+
+/*Quand la souris clique sur le champs*/
+.champ:focus {
+    outline: none;
+}
+
+.bouton{
+    height: 32px;
+    width: 256px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 16px;
+    margin-top: 16px;
+    color: #fff;
+    background:#007104;
+    cursor: pointer;
+}
+
+.cadre-2{
+    height: 600px;
+    width: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+}
+
+.image{
+    height: 600px;
+    width: 600px;
+    border-radius: 16px; 
+}
