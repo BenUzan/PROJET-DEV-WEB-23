@@ -19,7 +19,14 @@ body {
     height: 600px;
     width: 360px;
     float: left;
-    padding-top: 100px;
+    padding-top: 75px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: -25px;
 }
 
 .cadre-1 h1{

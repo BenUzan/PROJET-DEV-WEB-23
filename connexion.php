@@ -10,6 +10,7 @@
 <body>
     <div class="conteuneur">
         <div class="cadre-1">
+            <img class="logo" src="public/images/logo.jpg" alt="logo">
             <h1>Se connecter</h1>
             <p>Vous n'avez pas de compte? <a href="connexion.html">Inscrivez-vous !</a></p>
             <form class="formulaire" method="post" action="/controleur/inscription.php">
@@ -29,7 +30,7 @@
             </form>
         </div>
         <div class="cadre-2">
-            <img class="image" src="images/bg.jpg" alt="bg">
+            <img class="image" src="public/images/bg.jpg" alt="bg">
         </div>
     </div>
 </body>

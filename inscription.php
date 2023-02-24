@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/connexion-inscription.css">
+    <link rel="stylesheet" href="public/styles/connexion-inscription.css">
     <title>RDC MON PAYS - Inscription</title>
 </head>
 <body>
     <div class="conteuneur">
         <div class="cadre-1">
+            <img class="logo" src="public/images/logo.jpg" alt="logo">
             <h1>S'inscrire</h1>
             <p>Vous avez un compte? <a href="connexion.html">Connecter-vous</a></p>
             <form class="formulaire" method="post" action="controleur/inscription.php">
@@ -34,7 +35,7 @@
             </form>
         </div>
         <div class="cadre-2">
-            <img class="image" src="images/bg.jpg" alt="bg">
+            <img class="image" src="public/images/bg.jpg" alt="bg">
         </div>
     </div>
     <footer>
