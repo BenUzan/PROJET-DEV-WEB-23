@@ -1,17 +1,19 @@
 body {
     font-family: 'Leelawadee', 'Segoe UI';
-    background-color: #e6e8ea
+    background-color: #e6e8ea;
+    align-items: center;
 }
 
-.conteuneur {
+.conteneur {
     font-family: 'Leelawadee',  'Segoe UI';
     height: 620px;
     width: 980px;
-    background-color: rgba(255, 255, 255, 0.952);
     margin-left: 50px;
     margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.952);
     text-align: left;
     flex: content;
+    border-radius: 16px;
     box-shadow: 5px 25px 25px gray;
 }
 
@@ -91,6 +93,12 @@ body {
     color: #fff;
     background:#007104;
     cursor: pointer;
+}
+
+/*Quan d il y a survolle de la souris sur le bouton*/
+.bouton:hover{
+    color: #fff;
+    background:#018b06;
 }
 
 .cadre-2{
